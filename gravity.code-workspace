@@ -10,11 +10,11 @@
 	{
 		"files.exclude":
 		{
-			".dep": true,
-			".obj": true,
-			".vscode/": true,
-			"*.dll": true,
-			"Makefile": true
+			// ".dep": true,
+			// ".obj": true,
+			// ".vscode/": true,
+			// "*.dll": true,
+			// "Makefile": true
 		},
 		"[cpp]": 
 		{

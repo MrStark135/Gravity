@@ -9,7 +9,7 @@ int main()
 {
 	// window - randerTarget
 	sf::RenderWindow window(sf::VideoMode(640, 480), "Title", sf::Style::Titlebar | sf::Style::Close);
-	unsigned FPS = 10;
+	unsigned FPS = 60;
 	window.setFramerateLimit(FPS);
 	
 	// event's and actions related

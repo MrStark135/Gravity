@@ -3,6 +3,7 @@ INCLUDEDIRS		=./include ./SFML/include
 SOURCEDIR		=./src
 OBJECTDIR		=./.obj
 DEPENDENCYDIR	=./.dep
+BUILDDIR		=./build
 
 CPPFILES =$(wildcard $(SOURCEDIR)/*.cpp)
 OBJECTS	 =$(patsubst $(SOURCEDIR)/%.cpp,$(OBJECTDIR)/%.o,$(CPPFILES))
@@ -28,7 +29,7 @@ DEPFLAGS = -MMD -MF $(DEPENDENCYDIR)/$*.d
 
 # -o specifies the name of the executable
 all: $(OBJECTS)
-	$(CC) $(CFLAGS) $(OBJECTS) -o $(PROGNAME) $(LIBPATH) $(LIBS) $(LDFLAGS)
+	$(CC) $(CFLAGS) $(OBJECTS) -o $(BUILDDIR)/$(PROGNAME) $(LIBPATH) $(LIBS) $(LDFLAGS)
 
 # -c only compiles the given files, doesn't link them
 # $@ is the target, $^ contains all the prerequisites, $< contains only the first prerequisite
@@ -47,7 +48,10 @@ $(OBJECTDIR):
 $(DEPENDENCYDIR):
 	mkdir $(DEPENDENCYDIR)
 
+run:
+	$(BUILDDIR)/$(PROGNAME)
+
 clean:
 	-rm -rf $(OBJECTDIR)
 	-rm -rf $(DEPENDENCYDIR)
-	-rm -rf $(PROGNAME)
+	-rm -rf $(BUILDDIR)/$(PROGNAME)
