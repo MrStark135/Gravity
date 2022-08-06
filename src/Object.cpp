@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#define TRACES_LENGTH 1000
+#define TRACES_LENGTH 100
 
 Object::Object(sf::Vector2f position, sf::Vector2f initialVelocity, float mass, unsigned radius, sf::Color color, sf::RenderWindow* renderTarget, std::vector<Object*>* objects)
 {

@@ -9,7 +9,7 @@ int main()
 {
 	// window - randerTarget
 	sf::RenderWindow window(sf::VideoMode(640, 480), "Title", sf::Style::Titlebar | sf::Style::Close);
-	unsigned FPS = 60;
+	unsigned FPS = 10;
 	window.setFramerateLimit(FPS);
 	
 	// event's and actions related
@@ -29,9 +29,10 @@ int main()
 	// objects.push_back(new Object(sf::Vector2f(100, 300), sf::Vector2f(0, -1), 300, 30, sf::Color(0, 255, 0), &window, &objects));
 	
 	// system
-	objects.push_back(new Object(sf::Vector2f(380, 300), sf::Vector2f(0, 2.5f), 0.0025f, 10, sf::Color(0, 255, 0), &window, &objects));
-	objects.push_back(new Object(sf::Vector2f(200, 300), sf::Vector2f(0, 2.041f), 0.5f, 10, sf::Color(255, 255, 0), &window, &objects));
-	objects.push_back(new Object(sf::Vector2f(480, 300), sf::Vector2f(0, 1.8f), 0.5f, 10, sf::Color(0, 255, 0), &window, &objects));
+	objects.push_back(new Object(sf::Vector2f(390, 300), sf::Vector2f(0, 2.4f), 0.0025f, 10, sf::Color(0, 255, 0), &window, &objects));
+	objects.push_back(new Object(sf::Vector2f(350, 300), sf::Vector2f(0, -3.5f), 0.0025f, 10, sf::Color(0, 255, 255), &window, &objects));
+	objects.push_back(new Object(sf::Vector2f(190, 300), sf::Vector2f(0, 2.031f), 0.5f, 10, sf::Color(255, 255, 0), &window, &objects));
+	objects.push_back(new Object(sf::Vector2f(480, 300), sf::Vector2f(0, 1.8f), 3.0f, 10, sf::Color(0, 0, 255), &window, &objects));
 	objects.push_back(new Object(sf::Vector2f(300, 300), sf::Vector2f(0, 0), 500, 20, sf::Color(255, 255, 255), &window, &objects));
 	
 	while(window.isOpen())
