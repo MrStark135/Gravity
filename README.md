@@ -6,7 +6,7 @@ The repository already conatins a compiled executable that runs on Windows 10.
 In order to build the code from scratch use the Makefile provided. build and run with
 ```bash
 make
-./main
+make run
 ```
 
 The repository contains all you need to use the simulator. The DLLs are here along with the SFML library (headers and libs).
