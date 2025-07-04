@@ -14,9 +14,9 @@ Alternative method: If cmake can't find the package, try using the simple Makefi
 but first make sure the SFML lib locations are correct:
 ```Makefile
 ## extern lib (SFML) related
-SFML_PATH		="C:/Program Files/SFML-3.0.0"
+SFML_PATH		  ="C:/Program Files/SFML-3.0.0"
 SFML_INCLUDE	=-I${SFML_PATH}/include
-SFML_LIB		=-L${SFML_PATH}/lib
+SFML_LIB		  =-L${SFML_PATH}/lib
 ```
 ```cmd
 cd windows
