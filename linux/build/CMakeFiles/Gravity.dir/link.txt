@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/Gravity.dir/link.d CMakeFiles/Gravity.dir/src/Object.cpp.o CMakeFiles/Gravity.dir/src/main.cpp.o -o Gravity  -lsfml-graphics -lsfml-window -lsfml-system

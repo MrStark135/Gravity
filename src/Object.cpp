@@ -53,13 +53,16 @@ void Object::Update()
 	object.setPosition(position);
 	
 	// trace related
-	trace.push_back(sf::Vertex(position + sf::Vector2f(radius, radius), sf::Color(100, 100, 100)));
+	sf::Vertex point = sf::Vertex();
+	point.position = position + sf::Vector2f(radius, radius);
+	point.color = sf::Color(100, 100, 100);
+	trace.push_back(point);
 	if (trace.size() >= TRACES_LENGTH) trace.erase(trace.begin());
 }
 
 void Object::Render()
 {
-	renderTarget->draw(trace.data(), trace.size(), sf::LinesStrip);
+	renderTarget->draw(trace.data(), trace.size(), sf::PrimitiveType::LineStrip);
 	renderTarget->draw(object);
 }
 
