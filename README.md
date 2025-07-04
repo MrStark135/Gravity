@@ -1,9 +1,9 @@
-### Gravity
+# Gravity
 Gravity simulation made in C++ with SFML
 
 ## Build & Run
 The project contains prebuild binaries for Windows 10 and Archlinux. Check to see if they suit you. If not, just delete the executables and build the source files.
-# Windows
+### Windows
 The cmake provided should find the SFML package. Make sure you have cmake and make installed
 ```cmd
 cd windows\build
@@ -22,7 +22,7 @@ SFML_LIB		=-L${SFML_PATH}/lib
 cd windows
 make
 ```
-# Linux
+### Linux
 Again, cmake should find the sfml package and proceed to generate build files for make
 ```bash
 cd linux/build
