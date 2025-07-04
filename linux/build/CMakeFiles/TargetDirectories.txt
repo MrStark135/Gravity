@@ -1,0 +1,3 @@
+/home/user03/tmp/gravity/linux/build/CMakeFiles/Gravity.dir
+/home/user03/tmp/gravity/linux/build/CMakeFiles/edit_cache.dir
+/home/user03/tmp/gravity/linux/build/CMakeFiles/rebuild_cache.dir
