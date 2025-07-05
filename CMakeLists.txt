@@ -3,10 +3,10 @@ project(Gravity VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 17)
 
-if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Debug
-        CACHE STRING "Choose the build type (Debug / Release)" FORCE)
-endif()
+# if(NOT CMAKE_BUILD_TYPE)
+#     set(CMAKE_BUILD_TYPE Debug
+#         CACHE STRING "Choose the build type (Debug / Release)" FORCE)
+# endif()
 
 find_package(SFML 3.0 COMPONENTS System Window Graphics REQUIRED)
 

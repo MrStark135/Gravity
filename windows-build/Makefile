@@ -11,7 +11,7 @@ LIBS			=-lsfml-audio -lsfml-system -lsfml-window -lsfml-graphics -lopenal32
 LDFLAGS = #-lgcc
 
 ## build related
-PROGRAM			=build/Gravity.exe
+PROGRAM			=Gravity.exe
 
 ## helper files and dirs
 OBJECTDIR		=./.obj

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user03/tmp/gravity
+CMAKE_SOURCE_DIR = /home/user03/tmp/Gravity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user03/tmp/gravity/linux/build
+CMAKE_BINARY_DIR = /home/user03/tmp/Gravity/linux-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Gravity.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/Gravity.dir/codegen:
 .PHONY : CMakeFiles/Gravity.dir/codegen
 
 CMakeFiles/Gravity.dir/src/Object.cpp.o: CMakeFiles/Gravity.dir/flags.make
-CMakeFiles/Gravity.dir/src/Object.cpp.o: /home/user03/tmp/gravity/src/Object.cpp
+CMakeFiles/Gravity.dir/src/Object.cpp.o: /home/user03/tmp/Gravity/src/Object.cpp
 CMakeFiles/Gravity.dir/src/Object.cpp.o: CMakeFiles/Gravity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user03/tmp/gravity/linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gravity.dir/src/Object.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gravity.dir/src/Object.cpp.o -MF CMakeFiles/Gravity.dir/src/Object.cpp.o.d -o CMakeFiles/Gravity.dir/src/Object.cpp.o -c /home/user03/tmp/gravity/src/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user03/tmp/Gravity/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gravity.dir/src/Object.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gravity.dir/src/Object.cpp.o -MF CMakeFiles/Gravity.dir/src/Object.cpp.o.d -o CMakeFiles/Gravity.dir/src/Object.cpp.o -c /home/user03/tmp/Gravity/src/Object.cpp
 
 CMakeFiles/Gravity.dir/src/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Gravity.dir/src/Object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user03/tmp/gravity/src/Object.cpp > CMakeFiles/Gravity.dir/src/Object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user03/tmp/Gravity/src/Object.cpp > CMakeFiles/Gravity.dir/src/Object.cpp.i
 
 CMakeFiles/Gravity.dir/src/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gravity.dir/src/Object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user03/tmp/gravity/src/Object.cpp -o CMakeFiles/Gravity.dir/src/Object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user03/tmp/Gravity/src/Object.cpp -o CMakeFiles/Gravity.dir/src/Object.cpp.s
 
 CMakeFiles/Gravity.dir/src/main.cpp.o: CMakeFiles/Gravity.dir/flags.make
-CMakeFiles/Gravity.dir/src/main.cpp.o: /home/user03/tmp/gravity/src/main.cpp
+CMakeFiles/Gravity.dir/src/main.cpp.o: /home/user03/tmp/Gravity/src/main.cpp
 CMakeFiles/Gravity.dir/src/main.cpp.o: CMakeFiles/Gravity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user03/tmp/gravity/linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Gravity.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gravity.dir/src/main.cpp.o -MF CMakeFiles/Gravity.dir/src/main.cpp.o.d -o CMakeFiles/Gravity.dir/src/main.cpp.o -c /home/user03/tmp/gravity/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user03/tmp/Gravity/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Gravity.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gravity.dir/src/main.cpp.o -MF CMakeFiles/Gravity.dir/src/main.cpp.o.d -o CMakeFiles/Gravity.dir/src/main.cpp.o -c /home/user03/tmp/Gravity/src/main.cpp
 
 CMakeFiles/Gravity.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Gravity.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user03/tmp/gravity/src/main.cpp > CMakeFiles/Gravity.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user03/tmp/Gravity/src/main.cpp > CMakeFiles/Gravity.dir/src/main.cpp.i
 
 CMakeFiles/Gravity.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gravity.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user03/tmp/gravity/src/main.cpp -o CMakeFiles/Gravity.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user03/tmp/Gravity/src/main.cpp -o CMakeFiles/Gravity.dir/src/main.cpp.s
 
 # Object files for target Gravity
 Gravity_OBJECTS = \
@@ -113,7 +113,7 @@ Gravity: CMakeFiles/Gravity.dir/src/main.cpp.o
 Gravity: CMakeFiles/Gravity.dir/build.make
 Gravity: CMakeFiles/Gravity.dir/compiler_depend.ts
 Gravity: CMakeFiles/Gravity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/user03/tmp/gravity/linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Gravity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/user03/tmp/Gravity/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Gravity"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Gravity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/Gravity.dir/clean:
 .PHONY : CMakeFiles/Gravity.dir/clean
 
 CMakeFiles/Gravity.dir/depend:
-	cd /home/user03/tmp/gravity/linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user03/tmp/gravity /home/user03/tmp/gravity /home/user03/tmp/gravity/linux/build /home/user03/tmp/gravity/linux/build /home/user03/tmp/gravity/linux/build/CMakeFiles/Gravity.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/user03/tmp/Gravity/linux-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user03/tmp/Gravity /home/user03/tmp/Gravity /home/user03/tmp/Gravity/linux-build /home/user03/tmp/Gravity/linux-build /home/user03/tmp/Gravity/linux-build/CMakeFiles/Gravity.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Gravity.dir/depend
 

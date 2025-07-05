@@ -1,5 +1,5 @@
 CMakeFiles/Gravity.dir/src/main.cpp.o: \
- /home/user03/tmp/gravity/src/main.cpp /usr/include/stdc-predef.h \
+ /home/user03/tmp/Gravity/src/main.cpp /usr/include/stdc-predef.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Graphics/BlendMode.hpp \
  /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/Graphics/CircleShape.hpp \
@@ -254,7 +254,7 @@ CMakeFiles/Gravity.dir/src/main.cpp.o: \
  /usr/include/SFML/System/MemoryInputStream.hpp \
  /usr/include/SFML/System/Sleep.hpp /usr/include/c++/15.1.1/iostream \
  /usr/include/c++/15.1.1/stdlib.h \
- /home/user03/tmp/gravity/include/Object.hpp \
+ /home/user03/tmp/Gravity/include/Object.hpp \
  /usr/include/c++/15.1.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \

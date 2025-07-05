@@ -1,6 +1,6 @@
 CMakeFiles/Gravity.dir/src/Object.cpp.o: \
- /home/user03/tmp/gravity/src/Object.cpp /usr/include/stdc-predef.h \
- /home/user03/tmp/gravity/include/Object.hpp \
+ /home/user03/tmp/Gravity/src/Object.cpp /usr/include/stdc-predef.h \
+ /home/user03/tmp/Gravity/include/Object.hpp \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Graphics/BlendMode.hpp \
  /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/Graphics/CircleShape.hpp \

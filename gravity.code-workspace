@@ -13,7 +13,7 @@
 			// ".dep": true,
 			// ".obj": true,
 			// ".vscode/": true,
-			"*.dll": true,
+			// "*.dll": true,
 			// "Makefile": true
 		},
 		"[cpp]": 

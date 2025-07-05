@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/user03/tmp/gravity/src/Object.cpp" "CMakeFiles/Gravity.dir/src/Object.cpp.o" "gcc" "CMakeFiles/Gravity.dir/src/Object.cpp.o.d"
-  "/home/user03/tmp/gravity/src/main.cpp" "CMakeFiles/Gravity.dir/src/main.cpp.o" "gcc" "CMakeFiles/Gravity.dir/src/main.cpp.o.d"
+  "/home/user03/tmp/Gravity/src/Object.cpp" "CMakeFiles/Gravity.dir/src/Object.cpp.o" "gcc" "CMakeFiles/Gravity.dir/src/Object.cpp.o.d"
+  "/home/user03/tmp/Gravity/src/main.cpp" "CMakeFiles/Gravity.dir/src/main.cpp.o" "gcc" "CMakeFiles/Gravity.dir/src/main.cpp.o.d"
   "" "Gravity" "gcc" "CMakeFiles/Gravity.dir/link.d"
   )
 
